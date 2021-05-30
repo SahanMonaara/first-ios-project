@@ -20,7 +20,7 @@ struct ContentView: View {
             Button(action: {
                 self.isTextShowing.toggle()
             }) {
-                Text("Button").bold()
+                Text("Change").bold()
             }
         }
     }

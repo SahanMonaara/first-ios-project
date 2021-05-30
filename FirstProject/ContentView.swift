@@ -3,14 +3,26 @@
 //  FirstProject
 //
 //  Created by Sahan Alahakoon on 5/24/21.
-//  Copyright © 2021 Sahan Alahakoon. All rights reserved.
+//  Copyright © 2021 Sahan Alahakoon. All rights reserved. 
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    @State var isTextShowing = true
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            if isTextShowing {
+                Text("Hello, Sahan !").padding().font(.title)
+            } else {
+                Text("Hey!!").padding().font(.title)
+            }
+            Button(action: {
+                self.isTextShowing.toggle()
+            }) {
+                Text("Button").bold()
+            }
+        }
     }
 }
 

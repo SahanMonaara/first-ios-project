@@ -101,6 +101,7 @@
 		DEDB8EA6265AE2FB0017BEA1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = "";
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Sahan Alahakoon";
@@ -305,6 +306,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"FirstProject/Preview Content\"";
+				DEVELOPMENT_TEAM = 2FP3M4XWMA;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = FirstProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
